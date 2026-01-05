@@ -1,0 +1,27 @@
+﻿onset	duration	trial_type	value	sample
+0.0	0.0	New Segment/	99999	0
+0.0	0.0	Comment/actiCAP USB Power On	10001	0
+0.0	0.002	New Segment/	99999	0
+0.0	0.002	Comment/actiCAP USB Power On	10001	0
+7.248	0.0	Stimulus/S 70	70	3624
+7.248	0.002	Stimulus/S 70	70	3624
+23.398	0.0	Stimulus/S  8	8	11699
+23.398	0.002	Stimulus/S  8	8	11699
+29.432	0.0	Stimulus/S  2	2	14716
+29.432	0.002	Stimulus/S  2	2	14716
+92.404	0.0	Stimulus/S  1	1	46202
+92.404	0.002	Stimulus/S  1	1	46202
+155.406	0.0	Stimulus/S  1	1	77703
+155.406	0.002	Stimulus/S  1	1	77703
+218.4	0.0	Stimulus/S  2	2	109200
+218.4	0.002	Stimulus/S  2	2	109200
+281.402	0.0	Stimulus/S  1	1	140701
+281.402	0.002	Stimulus/S  1	1	140701
+344.402	0.0	Stimulus/S  2	2	172201
+344.402	0.002	Stimulus/S  2	2	172201
+407.408	0.0	Stimulus/S  2	2	203704
+407.408	0.002	Stimulus/S  2	2	203704
+470.404	0.0	Stimulus/S  1	1	235202
+470.404	0.002	Stimulus/S  1	1	235202
+539.422	0.0	Stimulus/S 71	71	269711
+539.422	0.002	Stimulus/S 71	71	269711

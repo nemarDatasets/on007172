@@ -1,0 +1,25 @@
+﻿onset	duration	trial_type	value	sample
+0.0	0.0	New Segment/	99999	0
+0.0	0.0	Comment/actiCAP Data On	10001	0
+0.0	0.002	New Segment/	99999	0
+0.0	0.002	Comment/actiCAP Data On	10001	0
+7.166	0.0	Stimulus/S 70	70	3583
+7.166	0.002	Stimulus/S 70	70	3583
+23.744	0.0	Stimulus/S  7	7	11872
+23.744	0.002	Stimulus/S  7	7	11872
+26.676	0.0	Stimulus/S  1	1	13338
+26.676	0.002	Stimulus/S  1	1	13338
+89.69	0.0	Stimulus/S  2	2	44845
+89.69	0.002	Stimulus/S  2	2	44845
+152.696	0.0	Stimulus/S  2	2	76348
+152.696	0.002	Stimulus/S  2	2	76348
+215.698	0.0	Stimulus/S  1	1	107849
+215.698	0.002	Stimulus/S  1	1	107849
+278.702	0.0	Stimulus/S  2	2	139351
+278.702	0.002	Stimulus/S  2	2	139351
+341.706	0.0	Stimulus/S  1	1	170853
+341.706	0.002	Stimulus/S  1	1	170853
+404.712	0.0	Stimulus/S  1	1	202356
+404.712	0.002	Stimulus/S  1	1	202356
+467.712	0.0	Stimulus/S  2	2	233856
+467.712	0.002	Stimulus/S  2	2	233856
