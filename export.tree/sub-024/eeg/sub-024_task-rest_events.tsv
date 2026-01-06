@@ -1,0 +1,27 @@
+﻿onset	duration	trial_type	value	sample
+0.0	0.0	New Segment/	99999	0
+0.0	0.0	Comment/actiCAP Active Shield On	10001	0
+0.0	0.002	New Segment/	99999	0
+0.0	0.002	Comment/actiCAP Active Shield On	10001	0
+7.992	0.0	Stimulus/S 70	70	3996
+7.992	0.002	Stimulus/S 70	70	3996
+34.942	0.0	Stimulus/S  7	7	17471
+34.942	0.002	Stimulus/S  7	7	17471
+37.896	0.0	Stimulus/S  1	1	18948
+37.896	0.002	Stimulus/S  1	1	18948
+100.928	0.0	Stimulus/S  2	2	50464
+100.928	0.002	Stimulus/S  2	2	50464
+163.954	0.0	Stimulus/S  2	2	81977
+163.954	0.002	Stimulus/S  2	2	81977
+226.962	0.0	Stimulus/S  1	1	113481
+226.962	0.002	Stimulus/S  1	1	113481
+289.962	0.0	Stimulus/S  2	2	144981
+289.962	0.002	Stimulus/S  2	2	144981
+352.964	0.0	Stimulus/S  1	1	176482
+352.964	0.002	Stimulus/S  1	1	176482
+415.98	0.0	Stimulus/S  1	1	207990
+415.98	0.002	Stimulus/S  1	1	207990
+478.982	0.0	Stimulus/S  2	2	239491
+478.982	0.002	Stimulus/S  2	2	239491
+548.016	0.0	Stimulus/S 71	71	274008
+548.016	0.002	Stimulus/S 71	71	274008
