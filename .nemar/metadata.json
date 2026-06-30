@@ -1,29 +1,127 @@
 {
   "version": "2.0",
-  "dataset_id": "on007172",
-  "source": "openneuro",
-  "source_id": "ds007172",
+  "pipeline_stage": "enriched",
   "title": "EEG-Asymmetries Dataset",
-  "authors": {
-    "Petunia Reinke": {},
-    "Lisa Deneke": {},
-    "Sebastian Ocklenburg": {}
-  },
   "license": "CC0",
   "dataset_type": "raw",
+  "authors": {
+    "Petunia Reinke": {
+      "orcid": "0009-0002-0715-8276",
+      "affiliations": [
+        {
+          "name": "MSH Medical School Hamburg"
+        },
+        {
+          "name": "MSH Medical School Hamburg"
+        }
+      ]
+    },
+    "Lisa Deneke": {},
+    "Sebastian Ocklenburg": {
+      "orcid": "0000-0001-5882-3200",
+      "affiliations": [
+        {
+          "name": "MSH Medical School Hamburg"
+        },
+        {
+          "name": "MSH Medical School Hamburg"
+        },
+        {
+          "name": "Ruhr University Bochum"
+        }
+      ]
+    }
+  },
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds007172.v1.0.0",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on007172",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on007172",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.1080/1357650X.2025.2591660",
+      "identifier_type": "DOI",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.21105/joss.01896",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "10.1038/s41597-019-0104-8",
+      "identifier_type": "DOI",
+      "relation_type": "References"
     }
   ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.7.0",
-  "recording_modality": [
+  "resource_type_general": "Dataset",
+  "modalities": [
     "eeg"
   ],
-  "datatypes": [
-    "eeg"
-  ]
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "0.0 KB (1 files)"
+  ],
+  "formats": [
+    ".eeg",
+    ".json",
+    ".md",
+    ".tsv",
+    ".vhdr",
+    ".vmrk"
+  ],
+  "description": "This EEG dataset comprises recordings from 100 participants (53 females, 46 males, 1 diverse individual; mean age 25.6 ± 4.91 years) performing a series of cognitive tasks designed to investigate hemispheric asymmetries in neural activity. The study examines the relationship between N1 lateralization and alpha asymmetry across resting state and four experimental conditions (word recognition, face processing, emotion recognition, and house categorization). Participants completed approximately 8 minutes of resting state EEG with alternating eyes-open and eyes-closed periods (63 seconds each), followed by randomized task blocks with counterbalanced hand responses to assess lateralized motor and sensory processing. Each task consisted of three blocks: practice, right-hand response block (80 stimuli), and left-hand response block (80 stimuli).",
+  "methods_description": "EEG data were collected during resting state (8 minutes with alternating 63-second periods of eyes-open and eyes-closed) and four cognitive tasks presented in randomized order. Each task consisted of three blocks: practice, right-hand response block (80 stimuli), and left-hand response block (80 stimuli), with starting hand randomized across participants. Stimuli were presented centrally for 1 second followed by a 500-700ms fixation cross. Tasks included word recognition (animal vs. non-animal names), face processing (male/female, Black/White), emotion recognition (angry, fearful, happy expressions), and house categorization (pitched vs. flat roofs). Participants were instructed to respond only to target stimuli via spacebar press.",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "hemispheric asymmetry"
+    },
+    {
+      "term": "N1 component"
+    },
+    {
+      "term": "alpha oscillations"
+    },
+    {
+      "term": "motor lateralization"
+    },
+    {
+      "term": "event-related potentials"
+    },
+    {
+      "term": "word recognition"
+    },
+    {
+      "term": "face processing"
+    },
+    {
+      "term": "emotion recognition"
+    },
+    {
+      "term": "house categorization"
+    },
+    {
+      "term": "resting state"
+    },
+    {
+      "term": "laterality"
+    },
+    {
+      "term": "handedness"
+    }
+  ],
+  "source_hash": "2ff4b3658ce497fb04df66645a57fbf5e2c9c71e1c66c364e1bc5e00ed1edb59"
 }
