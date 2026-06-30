@@ -1,7 +1,9 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
   "title": "EEG-Asymmetries Dataset",
+  "description": "This dataset comprises resting-state and task-based EEG recordings from 100 participants designed to investigate hemispheric asymmetries in electroencephalographic activity. The study examines the association between N1 lateralization and alpha asymmetry across multiple cognitive domains including word recognition, face processing, emotion perception, and visual object categorization. Participants completed approximately 8 minutes of resting-state EEG with alternating eyes-open and eyes-closed periods, followed by four randomized tasks involving stimulus-response paradigms with counterbalanced hand responses.",
+  "methods_description": "EEG data were collected from 100 participants (53 females, 46 males, 1 diverse individual; mean age 25.6 ± 4.91 years) during resting state and four cognitive tasks. The resting-state protocol consisted of approximately 8 minutes with alternating open-eye (4.2 min) and closed-eye (4.2 min) periods. Task-based recordings included: words task (animal/non-animal discrimination), faces task (gender and race categorization), emotions task (emotion recognition), and houses task (roof type discrimination). Each task comprised practice and test blocks with counterbalanced left and right hand responses across 160 stimulus presentations per task. Stimuli were presented centrally for 1 second followed by a 500-700 ms fixation cross.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -32,12 +34,30 @@
       ]
     }
   },
-  "related_identifiers": [
+  "keywords": [
     {
-      "identifier": "10.18112/openneuro.ds007172.v1.0.0",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
+      "term": "EEG"
     },
+    {
+      "term": "hemispheric asymmetry"
+    },
+    {
+      "term": "alpha oscillations"
+    },
+    {
+      "term": "event-related potentials"
+    },
+    {
+      "term": "N1 component"
+    },
+    {
+      "term": "lateralization"
+    },
+    {
+      "term": "cognitive tasks"
+    }
+  ],
+  "related_identifiers": [
     {
       "identifier": "https://github.com/nemarDatasets/on007172",
       "identifier_type": "URL",
@@ -62,15 +82,20 @@
       "identifier": "10.1038/s41597-019-0104-8",
       "identifier_type": "DOI",
       "relation_type": "References"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds007172.v1.0.0",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
     }
   ],
   "resource_type_general": "Dataset",
+  "resource_type_specific": "EEG Dataset",
   "modalities": [
     "eeg"
   ],
-  "resource_type_specific": "EEG Dataset",
   "sizes": [
-    "0.0 KB (1 files)"
+    "11.8 GB (1503 files)"
   ],
   "formats": [
     ".eeg",
@@ -78,50 +103,8 @@
     ".md",
     ".tsv",
     ".vhdr",
-    ".vmrk"
+    ".vmrk",
+    ".yml"
   ],
-  "description": "This EEG dataset comprises recordings from 100 participants (53 females, 46 males, 1 diverse individual; mean age 25.6 ± 4.91 years) performing a series of cognitive tasks designed to investigate hemispheric asymmetries in neural activity. The study examines the relationship between N1 lateralization and alpha asymmetry across resting state and four experimental conditions (word recognition, face processing, emotion recognition, and house categorization). Participants completed approximately 8 minutes of resting state EEG with alternating eyes-open and eyes-closed periods (63 seconds each), followed by randomized task blocks with counterbalanced hand responses to assess lateralized motor and sensory processing. Each task consisted of three blocks: practice, right-hand response block (80 stimuli), and left-hand response block (80 stimuli).",
-  "methods_description": "EEG data were collected during resting state (8 minutes with alternating 63-second periods of eyes-open and eyes-closed) and four cognitive tasks presented in randomized order. Each task consisted of three blocks: practice, right-hand response block (80 stimuli), and left-hand response block (80 stimuli), with starting hand randomized across participants. Stimuli were presented centrally for 1 second followed by a 500-700ms fixation cross. Tasks included word recognition (animal vs. non-animal names), face processing (male/female, Black/White), emotion recognition (angry, fearful, happy expressions), and house categorization (pitched vs. flat roofs). Participants were instructed to respond only to target stimuli via spacebar press.",
-  "keywords": [
-    {
-      "term": "EEG"
-    },
-    {
-      "term": "hemispheric asymmetry"
-    },
-    {
-      "term": "N1 component"
-    },
-    {
-      "term": "alpha oscillations"
-    },
-    {
-      "term": "motor lateralization"
-    },
-    {
-      "term": "event-related potentials"
-    },
-    {
-      "term": "word recognition"
-    },
-    {
-      "term": "face processing"
-    },
-    {
-      "term": "emotion recognition"
-    },
-    {
-      "term": "house categorization"
-    },
-    {
-      "term": "resting state"
-    },
-    {
-      "term": "laterality"
-    },
-    {
-      "term": "handedness"
-    }
-  ],
-  "source_hash": "2ff4b3658ce497fb04df66645a57fbf5e2c9c71e1c66c364e1bc5e00ed1edb59"
+  "source_hash": "a71abde534375946c3fc8c8de9a5ff0d1035ad88bc381cdee2d28be099df7745"
 }
