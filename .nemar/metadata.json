@@ -3,7 +3,7 @@
   "pipeline_stage": "validated",
   "title": "EEG-Asymmetries Dataset",
   "description": "This dataset comprises resting-state and task-based EEG recordings from 100 participants designed to investigate hemispheric asymmetries in electroencephalographic activity. The study examines the association between N1 lateralization and alpha asymmetry across multiple cognitive domains including word recognition, face processing, emotion perception, and visual object categorization. Participants completed approximately 8 minutes of resting-state EEG with alternating eyes-open and eyes-closed periods, followed by four randomized tasks involving stimulus-response paradigms with counterbalanced hand responses.",
-  "methods_description": "EEG data were collected from 100 participants (53 females, 46 males, 1 diverse individual; mean age 25.6 ± 4.91 years) during resting state and four cognitive tasks. The resting-state protocol consisted of approximately 8 minutes with alternating open-eye (4.2 min) and closed-eye (4.2 min) periods. Task-based recordings included: words task (animal/non-animal discrimination), faces task (gender and race categorization), emotions task (emotion recognition), and houses task (roof type discrimination). Each task comprised practice and test blocks with counterbalanced left and right hand responses across 160 stimulus presentations per task. Stimuli were presented centrally for 1 second followed by a 500-700 ms fixation cross.",
+  "methods_description": "EEG data were collected during resting state (8 minutes with alternating 63-second periods of eyes-open and eyes-closed) and four task conditions (words, faces, emotions, houses). Each task consisted of three blocks: practice, right-hand response block (80 stimuli), and left-hand response block (80 stimuli), with stimuli presented for 1 second followed by a 500-700ms fixation cross. Participants responded to target stimuli via spacebar press. Detailed trigger codes are provided for all experimental conditions and stimulus categories.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -45,16 +45,19 @@
       "term": "alpha oscillations"
     },
     {
-      "term": "event-related potentials"
-    },
-    {
       "term": "N1 component"
     },
     {
-      "term": "lateralization"
+      "term": "Event-Related Potentials, P300",
+      "subject_scheme": "MeSH",
+      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D018913"
     },
     {
       "term": "cognitive tasks"
+    },
+    {
+      "term": "resting state"
     }
   ],
   "related_identifiers": [
