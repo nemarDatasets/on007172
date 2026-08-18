@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "EEG-Asymmetries Dataset",
-  "description": "This dataset comprises resting-state and task-based EEG recordings from 100 participants designed to investigate hemispheric asymmetries in electroencephalographic activity. The study examines the association between N1 lateralization and alpha asymmetry across multiple cognitive domains including word recognition, face processing, emotion perception, and visual object categorization. Participants completed approximately 8 minutes of resting-state EEG with alternating eyes-open and eyes-closed periods, followed by four randomized tasks involving stimulus-response paradigms with counterbalanced hand responses.",
-  "methods_description": "EEG data were collected during resting state (8 minutes with alternating 63-second periods of eyes-open and eyes-closed) and four task conditions (words, faces, emotions, houses). Each task consisted of three blocks: practice, right-hand response block (80 stimuli), and left-hand response block (80 stimuli), with stimuli presented for 1 second followed by a 500-700ms fixation cross. Participants responded to target stimuli via spacebar press. Detailed trigger codes are provided for all experimental conditions and stimulus categories.",
+  "description": "This dataset contains EEG recordings from 100 healthy adult participants collected to investigate hemispheric asymmetries related to N1 lateralization and alpha asymmetry. Recordings include an eight-minute resting state period with alternating eyes-open and eyes-closed segments, followed by four lateralized go/no-go tasks (words, faces, emotions, houses) requiring hand-specific responses to target stimuli. The dataset supports research on lateralized cognitive and perceptual processing in the EEG.",
+  "methods_description": "Participants completed a resting-state recording (~8 minutes, alternating open/closed eyes in 63s blocks) followed by four tasks (words, faces, emotions, houses) presented in randomized order. Each task included a practice block and two response blocks (right-hand and left-hand responses), with stimuli presented for 1 second followed by a fixation cross (500-700ms). Each task consisted of 160 stimulus presentations total, with participants responding via spacebar press only to specific target stimuli (animal names, female faces, houses with pitched roofs).",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -42,22 +42,19 @@
       "term": "hemispheric asymmetry"
     },
     {
-      "term": "alpha oscillations"
+      "term": "alpha asymmetry"
     },
     {
-      "term": "N1 component"
-    },
-    {
-      "term": "Event-Related Potentials, P300",
-      "subject_scheme": "MeSH",
-      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D018913"
-    },
-    {
-      "term": "cognitive tasks"
+      "term": "N1 lateralization"
     },
     {
       "term": "resting state"
+    },
+    {
+      "term": "event-related potentials"
+    },
+    {
+      "term": "lateralization"
     }
   ],
   "related_identifiers": [
@@ -74,7 +71,7 @@
     {
       "identifier": "10.1080/1357650X.2025.2591660",
       "identifier_type": "DOI",
-      "relation_type": "IsDescribedBy"
+      "relation_type": "IsSupplementTo"
     },
     {
       "identifier": "10.21105/joss.01896",
