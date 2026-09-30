@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "EEG-Asymmetries Dataset",
-  "description": "This dataset contains EEG recordings from 100 healthy adult participants collected to investigate hemispheric asymmetries related to N1 lateralization and alpha asymmetry. Recordings include an eight-minute resting state period with alternating eyes-open and eyes-closed segments, followed by four lateralized go/no-go tasks (words, faces, emotions, houses) requiring hand-specific responses to target stimuli. The dataset supports research on lateralized cognitive and perceptual processing in the EEG.",
-  "methods_description": "Participants completed a resting-state recording (~8 minutes, alternating open/closed eyes in 63s blocks) followed by four tasks (words, faces, emotions, houses) presented in randomized order. Each task included a practice block and two response blocks (right-hand and left-hand responses), with stimuli presented for 1 second followed by a fixation cross (500-700ms). Each task consisted of 160 stimulus presentations total, with participants responding via spacebar press only to specific target stimuli (animal names, female faces, houses with pitched roofs).",
+  "description": "EEG recordings from 100 healthy adults collected to study hemispheric asymmetries, specifically the relationship between N1 lateralization and alpha asymmetry. Each participant completed an eight-minute resting-state session with alternating eyes-open and eyes-closed periods. They then completed four lateralized visual tasks (words, faces, emotions, houses) with left- and right-hand responses.",
+  "methods_description": "Participants completed a resting-state recording of about 8 minutes (eyes open and closed periods of 63 s each), followed by four tasks in randomized order (words, faces, emotions, houses). Each task had a practice block and separate right-hand and left-hand response blocks (80 stimuli each, 160 total). Stimuli were shown for 1 s, followed by a fixation cross of 500-700 ms. Participants pressed the space bar only for target stimuli (animal names, female faces, houses with pitched roofs).",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -51,10 +51,12 @@
       "term": "resting state"
     },
     {
-      "term": "event-related potentials"
+      "term": "Functional Laterality",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D007839"
     },
     {
-      "term": "lateralization"
+      "term": "face processing"
     }
   ],
   "related_identifiers": [
@@ -71,7 +73,7 @@
     {
       "identifier": "10.1080/1357650X.2025.2591660",
       "identifier_type": "DOI",
-      "relation_type": "IsSupplementTo"
+      "relation_type": "IsDescribedBy"
     },
     {
       "identifier": "10.21105/joss.01896",
@@ -95,7 +97,7 @@
     "eeg"
   ],
   "sizes": [
-    "11.8 GB (1503 files)"
+    "11.01 GB (1503 files)"
   ],
   "formats": [
     ".eeg",
